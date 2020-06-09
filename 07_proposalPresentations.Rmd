@@ -1,0 +1,41 @@
+# Proposal presentations
+
+Some of the work that was expected to be ready for EWoMSX was disrupted by the restrictions on movement due to the novel coronavirus pandemic. These delegates presented their plans in private proposal meetings, which were meant to facilitate the sort of conversations they might have had about a developing project at a poster session. These meetings took place at the presenters' convenience throughout the summer.
+
+## Abstracts
+
+Recordings of these presentations are not available because they describe ongoing work. 
+
+### The tDCS effect on visual working memory over DLPFC and PPC
+
+*Shuangke Jiang (University of Sheffield), Myles Jones, & Claudia C. von Bastian*
+
+*Email: sjiang17@sheffield.ac.uk*
+
+Transcranial direct current stimulation (tDCS) has gained growing research interest as a promising intervention tool to enhance visual working memory (VWM) performance. Previous evidence indicates a correlation between VWM performance and neural activities in the dorsolateral prefrontal cortex (DLPFC) and posterior parietal cortex (PPC). Recently, Wang et al. (2019) found that anodal tDCS over PPC, but not over DLPFC, selectively improved VWM capacity but not VWM  precision. However, the original study has some potential issues, such as a small number of participants and trials, and incomplete counterbalancing, which could have led to overestimated effect sizes, unreliable estimation of VWM performance, and carryover effects. In the present pre-registered study, we aim to conceptually replicate these findings using a continuous reproduction task and study design that account for these weaknesses identified in Wang et al.'s (2019) study. If our replication attempt succeeds, it would suggest that PPC-tDCS is an effective paradigm to enhance VWM. Moreover, these findings would provide an insight into the distinct roles of the DLPFC and PPC in WM performance. 
+
+### Suceptibility to distraction, working memory and mathematical procedural skills
+
+*Kailing Li (University of Bristol) & Christopher Jarrold*
+
+*Email: ur18302@bristol.ac.uk*
+
+Many students face difficulties in maths learning. According to recent statistics published by the Standards and Testing Agency, about 24% of students in the UK fail to achieve expected mathematical levels in Key Stage 2 (age 11) (Standards and Testing Agency, 2018). The relationship between working memory and math achievement has long been established, but there are still remaining puzzles in the literature. Our own preliminary data indicate that the role of the resistance to the distraction within a working memory task has been found to be significant in predicting math abilities (conceptual knowledge, procedural skills and overall math achievement). However, we know little about whether the rate of forgetting or the susceptibility to distraction plays a central role in the relationship between working memory and math abilities. Our own preliminary study also showed that the interaction between processing and the ability to resist distraction was a significant predictor of math abilities. This result suggests that the susceptibility to distraction could be important in predicting math abilities. The current study will use a novel measure of working memory to examine the role of susceptibility to distraction using a Brown-Peterson design. We predict that the susceptibility to distraction negatively affects the performance in math. Depending on the ability to assess participants between now and the meeting we will provide either an overview of the study design or an analysis of collected data.
+
+### Attentional refreshing and visuospatial working memory in children with attentional-deficit/hyperactivity disorder
+
+*Luísa Superbia-Guimarães (University of Fribourg) & Valérie Camos*
+
+*Email: luisa.superbiaguimaraes@unifr.ch*
+
+Several models of working memory (WM) state that attention is a core mechanism (Barrouillet & Camos, 2015; Cowan, 1999; Engle, 1999). The voluntary attentional control in WM tasks increases with age for typically developing children, as demonstrated by studies using the retroactive cueing paradigm. However, little is known about this ability in children with attention-deficit/hyperactivity disorder (ADHD), who exhibit poor performance in WM measures, especially for visuospatial material. The study aims to assess whether ADHD children can use attention to boost memory performance during a visuospatial WM task. We will conduct an experiment using an item-recognition task combined with cues presented either before encoding (predictive cues) or during maintenance (retroactive cues). In the task (Shimi et al., 2014), an array of four coloured objects (same object in different colours) is presented during 350 ms and the response is given after a 2300 ms retention interval. In the predictive cue condition, an arrow (duration of 300 ms) pointing to the relevant item of the array is exhibited 1000 ms before the presentation of the items. In the retroactive cueing condition, an arrow pointing to one of the previously occupied locations of the array is presented 1000 ms after the array's offset and the probe is exhibited 1000 ms after the cue's offset. In the control condition, non-informative central squares are presented at the same time-points as the arrows. We will manipulate the cueing conditions between blocks of trials and the presence of ADHD symptoms between groups of participants (n = 30 per group), aged between 10 to 16 years. We predict that memory performance will be bolstered in both cueing conditions for the control group and that ADHD children will only benefit from predictive cues, but not from retroactive cues. If so, the hypothesis that attention is a weakened maintenance mechanism in ADHD children could be strengthened. Data collection is underway.
+
+### The consequences of instructed refreshing on memory performance in children
+
+*Beatrice Valentini (University of Geneva), Alessandra Souza, Clara Overkott, & Evie Vergauwe*
+
+*Email: beatrice.valentini@unige.ch*
+
+Refreshing is assumed to be an attention-based, domain-general maintenance mechanism in working memory, which improves the accessibility of mental representations. Although it is thought to be crucial for the maintenance of mental representations and memory performance,at present there is no agreement on its development throughout the childhood. This preregistered study used an instructed refreshing paradigm to disentangle whether children aged 7 and 11 years old can perform the cognitive processes which underlie successful refreshing. In particular, the task included conditions with one or two sequential retro-cues, aiming to test whether children can, respectively, (1) focus their attention on a mental representation, and (2) switch attention between the representations. Preliminary results suggest that children in both age groups can focus attention on a memory item, as reflected in the beneficial effect of a single retro-cue, but that they experience difficulties in switching attention between representations. Therefore, it seems that the mechanism of refreshing is not fully developed until 11 years old.
+
+### 
