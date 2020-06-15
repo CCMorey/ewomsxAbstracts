@@ -53,3 +53,142 @@ Although EWoMS is situated in Europe, we have delegates from all hemispheres. We
 knitr::include_graphics("ewomsSchedule.png")
 ```
 
+## Recording and sharing your talk/poster
+
+Presentations must be recorded and made available to the local committee for uploading by 7 August 2020. If your presentation was accepted as a **talk** please limit your recording to 20 minutes. If your presentation was accepted as a **poster** please limit your recording to 8 minutes; you may also use distinct slides rather than crowd your visuals onto one space if that makes recording easier, but please limit yourself to the amount of visuals that usually fit onto a poster, and the short walk-through that you would usually give to a visitor of your poster.
+
+You may record your talk using any method that allows you to save it as an MPEG-4/MP4. This includes using the Office 365 version of Powerpoint's functionality to record your webcam video along with your presentation or older versions of Powerpoint that allow you to record your narration, along with your slide show. You may also use Zoom to record webcam footage along with any presentation software. What's important: the format of the file must be an MPEG-4/MP4, but you may choose whether this video includes just slides and voice-over narration, or slides plus webcam footage.
+
+Upload your video file to a file hosting service (e.g. Dropbox, Google Drive, OneDrive, etc.) and email the link to ewomsx@cardiff.ac.uk by 7 August 2020. Because of typical mailbox limits, we probably cannot receive your video as an attachment. 
+
+### General tips for recording effectively
+
+* Whatever program you use, recording in editable modules helps save time. Powerpoint allows you to record or change the narration on individual slides, which can be useful if you want to go back and make changes. 
+* We recommend a brief test with your setup first (i.e. recording a couple of slides with narration and saving as a video).
+
+* Please check that your recording appears how you want it to before sending your link to us - we will not be editing!
+
+* Please stick to your time limit, or even undershoot it if possible. If you can deliver your message clearly and concisely, we think you will find that more delegates will attend to it. 
+
+### Tips for recording using PowerPoint
+
+These instructions are for PowerPoint 365, but instructions are largely the same for other versions of PowerPoint.
+
+In PowerPoint you can record the full presentation in one go, or you can record slides separately. If you record the full presentation you have the option to rerecord any slide/s.
+
+Helpful instructions are also available on [YouTube.](https://www.youtube.com/watch?v=f8u_QDZLqMs)
+
+#### Open presentation:
+
+* Click slideshow on the main menu.
+
+* Click record slide show.
+
+* You have the option to record from the beginning or from the current slide. If you want to record slides separately select from current slide.
+
+```{r, echo=F}
+knitr::include_graphics("powerpoint1.png")
+```
+
+### On the recording screen:
+
+* Your webcam will automatically turn on, you can select to turn it off if you prefer
+
+* Check your audio is enabled (Note having headphones plugged in can sometimes prevent the audio from recording)
+
+* Click RECORD
+
+* When you have finished recording a slide/s, or the full presentation, click STOP
+
+* Click the cross in top right to exit. All the slides you have recorded will automatically be saved.
+
+```{r, echo=F}
+knitr::include_graphics("powerpoint2.png")
+```
+
+#### Once you have recorded your narration for all slides:
+
+* On the main menu click file, export, and select Create a Video,
+
+* Select Create Video (Note ‘seconds spent on each slide’ only applies to unnarrated slides).
+
+* Save to chosen file location (Note it can take quite some time to save).
+
+```{r, echo=F}
+knitr::include_graphics("powerpoint3.png")
+```
+
+
+### Tips for recording using Zoom
+
+* In your web browser, go to https://zoom.us/. Create an account (it’s free) and download the software.
+
+```{r, echo=F}
+knitr::include_graphics("zoom1.png")
+```
+
+* In the Zoom client, sign in using the account you created.
+
+```{r, echo=F}
+knitr::include_graphics("zoom2.png")
+```
+
+* Start a new meeting (orange icon).
+
+```{r, echo=F}
+knitr::include_graphics("zoom3.png")
+```
+
+* Open your presentation in your software of choice (e.g. Powerpoint).
+
+* On the main Zoom menu:
+
+1. Check that your audio is enabled
+
+2. Your webcam is enabled if you wish
+
+3. Click on “Share Screen”
+
+```{r, echo=F}
+knitr::include_graphics("zoom4.png")
+```
+
+* Select your presentation from the available screens to share. Note that if you check “Optimize Screen Sharing for Video Clip”, your webcam image may not be displayed during your presentation.
+
+```{r, echo=F}
+knitr::include_graphics("zoom5.png")
+```
+
+* Start your slideshow in your presentation software as you normally would. Select “More” from the menu and “Record”. You can now do your presentation.
+
+```{r, echo=F}
+knitr::include_graphics("zoom6.png")
+```
+
+* When you have finished your presentation, go to the menu:
+
+1. Stop recording
+
+2. Stop sharing the screen
+
+```{r, echo=F}
+knitr::include_graphics("zoom7.png")
+```
+
+* End the meeting (bottom right corner). Select “End meeting for all”.
+
+```{r, echo=F}
+knitr::include_graphics("zoom8.png")
+```
+
+* Back on the main Zoom menu, you should see a message saying that your recording is being converted. This may take a while.
+
+```{r, echo=F}
+knitr::include_graphics("zoom9.png")
+```
+
+* When it has finished, several files should be saved in a folder on your computer. It is the MP4 file that you should send to us.
+
+```{r, echo=F}
+knitr::include_graphics("zoom10.png")
+```

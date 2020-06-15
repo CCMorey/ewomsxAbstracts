@@ -1,44 +1,57 @@
-\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[12pt,]{book}
+\documentclass[
+  12pt,
+]{book}
 \usepackage{lmodern}
 \usepackage{setspace}
-\setstretch{1.5}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provides euro and other symbols
-\else % if luatex or xelatex
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
   \usepackage{unicode-math}
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage[]{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\usepackage{hyperref}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-            pdftitle={Abstracts of the 10th European Working Memory Symposium},
-            pdfauthor={Cardiff University Steering Committee for EWoMSX: Candice Morey, Craig Hedge, \& Lizzie Smith},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
+  pdftitle={Abstracts of the 10th European Working Memory Symposium},
+  pdfauthor={Cardiff University Steering Committee for EWoMSX: Candice Morey, Craig Hedge, \& Lizzie Smith},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -48,25 +61,14 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
+% Set default figure placement to htbp
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -80,7 +82,7 @@
 
 \title{Abstracts of the 10th European Working Memory Symposium}
 \author{Cardiff University Steering Committee for EWoMSX: Candice Morey, Craig Hedge, \& Lizzie Smith}
-\date{2020-06-09}
+\date{2020-06-15}
 
 \begin{document}
 \maketitle
@@ -89,6 +91,7 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
+\setstretch{1.5}
 \hypertarget{the-10th-european-working-memory-symposium}{%
 \chapter{The 10th European Working Memory Symposium}\label{the-10th-european-working-memory-symposium}}
 
@@ -138,6 +141,186 @@ Working memory highlights a distinction between dormant knowledge and informatio
 Although EWoMS is situated in Europe, we have delegates from all hemispheres. We have tried to ensure that the times of the sessions are reasonable for the speakers associated with the session to attend. (NB- after registration we may find that some of our assumptions about where speakers will be attending from are incorrect, and may need to adjust times accordingly.)
 
 \includegraphics{ewomsSchedule.png}
+
+\hypertarget{recording-and-sharing-your-talkposter}{%
+\section{Recording and sharing your talk/poster}\label{recording-and-sharing-your-talkposter}}
+
+Presentations must be recorded and made available to the local committee for uploading by 7 August 2020. If your presentation was accepted as a \textbf{talk} please limit your recording to 20 minutes. If your presentation was accepted as a \textbf{poster} please limit your recording to 8 minutes; you may also use distinct slides rather than crowd your visuals onto one space if that makes recording easier, but please limit yourself to the amount of visuals that usually fit onto a poster, and the short walk-through that you would usually give to a visitor of your poster.
+
+You may record your talk using any method that allows you to save it as an MPEG-4/MP4. This includes using the Office 365 version of Powerpoint's functionality to record your webcam video along with your presentation or older versions of Powerpoint that allow you to record your narration, along with your slide show. You may also use Zoom to record webcam footage along with any presentation software. What's important: the format of the file must be an MPEG-4/MP4, but you may choose whether this video includes just slides and voice-over narration, or slides plus webcam footage.
+
+Upload your video file to a file hosting service (e.g.~Dropbox, Google Drive, OneDrive, etc.) and email the link to \href{mailto:ewomsx@cardiff.ac.uk}{\nolinkurl{ewomsx@cardiff.ac.uk}} by 7 August 2020. Because of typical mailbox limits, we probably cannot receive your video as an attachment.
+
+\hypertarget{general-tips-for-recording-effectively}{%
+\subsection{General tips for recording effectively}\label{general-tips-for-recording-effectively}}
+
+\begin{itemize}
+\item
+  Whatever program you use, recording in editable modules helps save time. Powerpoint allows you to record or change the narration on individual slides, which can be useful if you want to go back and make changes.
+\item
+  We recommend a brief test with your setup first (i.e.~recording a couple of slides with narration and saving as a video).
+\item
+  Please check that your recording appears how you want it to before sending your link to us - we will not be editing!
+\item
+  Please stick to your time limit, or even undershoot it if possible. If you can deliver your message clearly and concisely, we think you will find that more delegates will attend to it.
+\end{itemize}
+
+\hypertarget{tips-for-recording-using-powerpoint}{%
+\subsection{Tips for recording using PowerPoint}\label{tips-for-recording-using-powerpoint}}
+
+These instructions are for PowerPoint 365, but instructions are largely the same for other versions of PowerPoint.
+
+In PowerPoint you can record the full presentation in one go, or you can record slides separately. If you record the full presentation you have the option to rerecord any slide/s.
+
+Helpful instructions are also available on \href{https://www.youtube.com/watch?v=f8u_QDZLqMs}{YouTube.}
+
+\hypertarget{open-presentation}{%
+\subsubsection{Open presentation:}\label{open-presentation}}
+
+\begin{itemize}
+\item
+  Click slideshow on the main menu.
+\item
+  Click record slide show.
+\item
+  You have the option to record from the beginning or from the current slide. If you want to record slides separately select from current slide.
+\end{itemize}
+
+\includegraphics{powerpoint1.png}
+
+\hypertarget{on-the-recording-screen}{%
+\subsection{On the recording screen:}\label{on-the-recording-screen}}
+
+\begin{itemize}
+\item
+  Your webcam will automatically turn on, you can select to turn it off if you prefer
+\item
+  Check your audio is enabled (Note having headphones plugged in can sometimes prevent the audio from recording)
+\item
+  Click RECORD
+\item
+  When you have finished recording a slide/s, or the full presentation, click STOP
+\item
+  Click the cross in top right to exit. All the slides you have recorded will automatically be saved.
+\end{itemize}
+
+\includegraphics{powerpoint2.png}
+
+\hypertarget{once-you-have-recorded-your-narration-for-all-slides}{%
+\subsubsection{Once you have recorded your narration for all slides:}\label{once-you-have-recorded-your-narration-for-all-slides}}
+
+\begin{itemize}
+\item
+  On the main menu click file, export, and select Create a Video,
+\item
+  Select Create Video (Note `seconds spent on each slide' only applies to unnarrated slides).
+\item
+  Save to chosen file location (Note it can take quite some time to save).
+\end{itemize}
+
+\includegraphics{powerpoint3.png}
+
+\hypertarget{tips-for-recording-using-zoom}{%
+\subsection{Tips for recording using Zoom}\label{tips-for-recording-using-zoom}}
+
+\begin{itemize}
+\tightlist
+\item
+  In your web browser, go to \url{https://zoom.us/}. Create an account (it's free) and download the software.
+\end{itemize}
+
+\includegraphics{zoom1.png}
+
+\begin{itemize}
+\tightlist
+\item
+  In the Zoom client, sign in using the account you created.
+\end{itemize}
+
+\includegraphics{zoom2.png}
+
+\begin{itemize}
+\tightlist
+\item
+  Start a new meeting (orange icon).
+\end{itemize}
+
+\includegraphics{zoom3.png}
+
+\begin{itemize}
+\item
+  Open your presentation in your software of choice (e.g.~Powerpoint).
+\item
+  On the main Zoom menu:
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Check that your audio is enabled
+\item
+  Your webcam is enabled if you wish
+\item
+  Click on ``Share Screen''
+\end{enumerate}
+
+\includegraphics{zoom4.png}
+
+\begin{itemize}
+\tightlist
+\item
+  Select your presentation from the available screens to share. Note that if you check ``Optimize Screen Sharing for Video Clip'', your webcam image may not be displayed during your presentation.
+\end{itemize}
+
+\includegraphics{zoom5.png}
+
+\begin{itemize}
+\tightlist
+\item
+  Start your slideshow in your presentation software as you normally would. Select ``More'' from the menu and ``Record''. You can now do your presentation.
+\end{itemize}
+
+\includegraphics{zoom6.png}
+
+\begin{itemize}
+\tightlist
+\item
+  When you have finished your presentation, go to the menu:
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Stop recording
+\item
+  Stop sharing the screen
+\end{enumerate}
+
+\includegraphics{zoom7.png}
+
+\begin{itemize}
+\tightlist
+\item
+  End the meeting (bottom right corner). Select ``End meeting for all''.
+\end{itemize}
+
+\includegraphics{zoom8.png}
+
+\begin{itemize}
+\tightlist
+\item
+  Back on the main Zoom menu, you should see a message saying that your recording is being converted. This may take a while.
+\end{itemize}
+
+\includegraphics{zoom9.png}
+
+\begin{itemize}
+\tightlist
+\item
+  When it has finished, several files should be saved in a folder on your computer. It is the MP4 file that you should send to us.
+\end{itemize}
+
+\includegraphics{zoom10.png}
 
 \hypertarget{effects-of-actions-on-working-memory}{%
 \chapter{Effects of actions on working memory}\label{effects-of-actions-on-working-memory}}
@@ -215,7 +398,16 @@ M capacity (Pascual-Leone, 1987; Pascual-Leone \& Goodman, 1979) has been found 
 
 \emph{Email: \href{mailto:jeremy.villatte@univ-poitiers.fr}{\nolinkurl{jeremy.villatte@univ-poitiers.fr}}}
 
-In line with embodied views of cognition, growing evidence suggests that memory functioning is based on sensorimotor systems. Hence, different models (Versace et al., 2014; Briglia et al., 2018) assume that memory encoding rely on integration of sensorimotor information while retrieval is based on its reactivation. In the present study, we hypothesized that some memories are more strongly related to specific sensorial or motor systems that are crucial for their integration and reactivation. Example of this somatotopic-related memories could be observed using manipulable objects as stimuli. Thus, hand-related information is likely to play a more central role in memory of manipulable objects than information from other sensorimotor systems. In order to assess the specific contribution of manual sensorimotor system to memory of manipulable objects, we used a short term upper limb immobilization design. Twenty-four hours before the beginning of the experiment, a rigid splint was fixed on the dominant (right) hand of the participants assigned to the experimental group. The splint immobilized their hand, wrist and fingers. An immobilization vest restrained the move of their right arm to ensure they keep their hand at rest. Previous studies have shown that decreased arousal induced by immobilization elicit quick updating of manual sensorimotor representations (Meugnot \& Toussaint, 2015). Once twenty-four hours of immobilization elapsed, participants undergo a manipulable and non-manipulable objects pictures recognition task. We expected delayed response time for immobilized participants, in particular for correct recognitions (hits) of manipulable object. However, contrary to our prediction, hits for manipulable objects were faster for immobilized than for control group F (1,44) = 9,66, p\textless{}.01. We suggest that this surprising result is due to adaptive processes. Thus, immobilization could reduce amount of available information in memory, leading to quicker processing.
+In line with embodied views of cognition, growing evidence suggests that memory functioning is based on sensorimotor systems. Hence, different models (Versace et al., 2014; Briglia et al., 2018) assume that memory encoding rely on integration of sensorimotor information while retrieval is based on its reactivation. In the present study, we hypothesized that some memories are more strongly related to specific sensorial or motor systems that are crucial for their integration and reactivation. Example of this somatotopic-related memories could be observed using manipulable objects as stimuli. Thus, hand-related information is likely to play a more central role in memory of manipulable objects than information from other sensorimotor systems. In order to assess the specific contribution of manual sensorimotor system to memory of manipulable objects, we used a short term upper limb immobilization design. Twenty-four hours before the beginning of the experiment, a rigid splint was fixed on the dominant (right) hand of the participants assigned to the experimental group. The splint immobilized their hand, wrist and fingers. An immobilization vest restrained the move of their right arm to ensure they keep their hand at rest. Previous studies have shown that decreased arousal induced by immobilization elicit quick updating of manual sensorimotor representations (Meugnot \& Toussaint, 2015). Once twenty-four hours of immobilization elapsed, participants undergo a manipulable and non-manipulable objects pictures recognition task. We expected delayed response time for immobilized participants, in particular for correct recognitions (hits) of manipulable object. However, contrary to our prediction, hits for manipulable objects were faster for immobilized than for control group F (1,44) = 9,66, p\textless.01. We suggest that this surprising result is due to adaptive processes. Thus, immobilization could reduce amount of available information in memory, leading to quicker processing.
+
+\hypertarget{inhibition-of-return-andor-facilitation-in-working-memory}{%
+\subsection{Inhibition of Return and/or facilitation in working memory?}\label{inhibition-of-return-andor-facilitation-in-working-memory}}
+
+\emph{Caro Hautekiet (University of Geneva), Naomi Langerock, \& Evie Vergauwe}
+
+\emph{Email: \href{mailto:Caro.Hautekiet@unige.ch}{\nolinkurl{Caro.Hautekiet@unige.ch}}}
+
+Research in perception has shown that when a target is presented in a previously cued location, there is a short facilitative effect for responding to this target. Following an attentional shift away from the cued location, the facilitative effect turns into an inhibitory effect. The latter is better known as the Inhibition of Return (IOR) effect (Posner \& Cohen, 1984). Some researchers have looked at the analogue of the effect in working memory. However, the emerging pattern appears contradictory. On the one hand, Vergauwe \& Langerock (2017) found a facilitative effect for an item that was just the object of focused attention in working memory (i.e., the just-refreshed item). On the other hand, Johnson and colleagues (2013) found lowered accessibility for the just-refreshed item (i.e., an IOR-like effect). We aimed to understand the consequences of an item being in the focus of attention. Is it more accessible (i.e., facilitation) or less accessible (i.e., inhibition)? To address this question, we examined the role of two variables, based on the perception literature: (1) the particular task to be performed, and (2) timing parameters. Doing so, we showed (1) that the task to be performed modulates the effect of refreshing on response times to the target, such that inhibition was observed when refreshed vs.~unrefreshed words were presented in a simple reading task, whereas facilitation was observed refreshed vs.~unrefreshed words were presented in a manual lexical decision task. Furthermore, (2) in sharp contrast with what has been observed in perception, manipulating the time between cue and probe in the manual lexical decision task did not result in a cross-over from facilitation to inhibition, even when very long cue-target onset asynchronies were used. Thus, like Vergauwe \& Langerock (2017), we found evidence that an item in the focus of attention is more accessible in a manual lexical decision task.
 
 \hypertarget{visuo-spatial-working-memory-in-body-awareness-does-recalling-locations-helps-perceive-its-own-body}{%
 \subsection{Visuo-spatial working-memory In body-awareness: does recalling locations helps perceive its own body?}\label{visuo-spatial-working-memory-in-body-awareness-does-recalling-locations-helps-perceive-its-own-body}}
@@ -226,8 +418,8 @@ In line with embodied views of cognition, growing evidence suggests that memory 
 
 Body-awareness requires maintaining body representations in focus. The perception of spontaneous sensations (SPS) in the absence of tactile stimulation of the skin would contribute to body-awareness. Vision and attention are predominant factors of body-awareness and of SPS perception, and contribute to the maintenance of representations in working memory. Lesions in the parietal lobe were found to impair the body-representation maintenance without visual focus, causing one to lose awareness of its body-parts within seconds. Given that spatial-vision and spatial-attention play an important role in SPS perception, it was hypothesized that visuo-spatial working memory (VSWM) would contribute to body-awareness, and thus modulate the perception of SPS. Computed VSWM tasks, in the form of a Brown-Peterson and a complex span tasks, and a standard task of SPS, investigating the perception of sensations perceived in the absence of any tactile stimulation on the hands, were proposed to participants. The effect of decay, interference and cognitive load on recall performances were extracted from the VSWM tasks. Correlational analyses were carried out between these values and SPS. This study found that slow decay, and low rates of forgetting due to cognitive load were mainly associated with higher frequency of SPS over the hand. Opposite patterns were observed for the interference: individuals with low rate of forgetting perceived more SPS on less sensitive area, and conversely. In conclusion, greater ability in working memory would contribute to a better perception of SPS, either through an increment of their frequency on the hand, or through a better sensitivity to SPS on less sensitive area of the hand. On previous studies, the perception of SPS on less sensitive area of the hand was associated to interoceptive abilities, also strongly linked to body-awareness. These findings allow us to discuss the involvement of VSWM in body-awareness.
 
-\hypertarget{how-verbalization-impacts-working-memory}{%
-\chapter{How verbalization impacts working memory}\label{how-verbalization-impacts-working-memory}}
+\hypertarget{how-verbalization-and-language-impacts-working-memory}{%
+\chapter{How verbalization and language impacts working memory}\label{how-verbalization-and-language-impacts-working-memory}}
 
 How does verbalization impact memory for information, whether for words, images, or sounds? What does our understanding about interactions between verbalization and working memory performance suggest about the structure of a working memory system?
 
@@ -261,6 +453,15 @@ Work by Flavell, Beach, and Chinsky (1966) indicated a change in the spontaneous
 
 Storage of information in visual working memory (WM) is highly constrained and only a limited amount of representations can be maintained vividly in mind. Verbal labeling can be used to improve visual WM. Research with young adults showed that labeling increases both the quantity and quality of the visual information retained in mind, and that adults tend to spontaneously use this strategy. So far, it is unclear whether children can and do use this strategy to improve their visual WM. In this study we aimed to assess developmental changes in verbal labeling effects on the storage of continuous (i.e., fine-grained) and categorical (more prototypical) color information, manipulating whether labeling was spontaneous or experimenter-instructed. Children (5-7 and 8-11 years) and young adults (18-35 years) did a delayed estimation task in which they memorized colored candies varying on a continuous scale. During memorization, they were prompted to remain silent, label the colors, or to say irrelevant syllabi (``bababa'') thereby discouraging verbal labeling. At test, the color of the candies was reproduced on a color wheel. Results showed that children of both age groups were able to spontaneously use verbal labels and engage in experimenter-instructed labeling. Across all age groups, experimenter-instructed labeling showed the highest labeling benefit. There was a developmental labeling benefit trend for both spontaneous and experimenter-induced labeling. Mixture modeling on the format (categorical or continuous) in which the colors were stored, and their precision showed that labeling increased both categorical and continuous storage as well as in precision for children over 7-years-old and under 7-years-old, as well as adults. This suggests that experimenter-instructed and spontaneous labeling benefits quantity and quality of visual information similarly across development.
 
+\hypertarget{short-term-memory-for-music-the-role-of-the-vocal-motor-system}{%
+\subsection{Short-term memory for music: the role of the vocal motor system?}\label{short-term-memory-for-music-the-role-of-the-vocal-motor-system}}
+
+\emph{Simon Gorin (University of Geneva) \& Emma Greenspan}
+
+\emph{Email: \href{mailto:gorinsimon@gmail.com}{\nolinkurl{gorinsimon@gmail.com}}}
+
+Whether people engage in covert rehearsal to maintain musical information in short-term memory (STM) is unclear. In this study, we tested the hypothesis that the maintenance of pitch information in STM is supported by the vocal motor system. More precisely, we tested the idea that the rehearsal of pitch information relies on the translation of an auditory target into the motor codes required to reproduce that target. The same sensorimotor translation mechanism is assumed to operate in pitch imitation, and studies on singing abilities showed that the closest from participants' voice is the to-be-imitated the target, the most accurate is their imitation. Consequently, if the vocal motor system supports the maintenance of pitch information in a recognition task for pairs of melodies, we should observe better recognition performance with material sounding with the timbre of a synthetic voice than a piano (Experiment 1) and for melodies with the timbre of a real voice than a synthetic voice (Experiment 2). Also, it is expected that the effect of the type of timbre should disappear under articulatory suppression but not under manual tapping as only the former recruits the vocal motor system. In Experiment 1, we observed no effect of the type of timbre. In Experiment 2, the participants showed an advantage such that recognition was better for melodies with a real voice compared to melodies with a synthetic voice. However, as expected, this advantage disappeared with articulatory suppression. Our results suggest the existence of a link between the vocal motor system and the mechanism involved in pitch maintenance in STM.
+
 \hypertarget{the-role-of-working-memory-maintenance-mechanisms-in-false-recall}{%
 \subsection{The role of working memory maintenance mechanisms in false recall}\label{the-role-of-working-memory-maintenance-mechanisms-in-false-recall}}
 
@@ -279,39 +480,6 @@ Recent research revealed that working memory (WM) maintenance plays a crucial ro
 
 Studies indicate that a memory can be distorted after only a few seconds (Atkins \& Reuter-Lorenz, 2008). Working memory (WM) maintenance mechanisms seem to determine the occurrence of false memory at short-term (Abadie \& Camos, 2018). In this study, we examined this phenomenon by comparing the occurrence of false memories in 4 y.o children, who do not yet use any WM maintenance mechanisms, and 8 y.o children, who spontaneously use maintenance strategies (Oftinger \& Camos, 2016). Children performed a Brown-Peterson task in which they had to memorize semantically related items lists. Then they did an 8-second concurrent task. The difficulty of this task was varied to manipulate maintenance of memory items through WM. Afterwards, children performed a recognition task composed of target items, and of distractors semantically related and unrelated to the memory items. Results provided substantial evidence against an effect of age on correct recognition of targets and indicated that 4 y.o. falsely recognized related distractors as targets more often than 8 y.o. Unfortunately, our manipulation of WM maintenance mechanisms was probably not strong enough to affect children recognition performance. Data were also analyzed with the conjoint recognition model of the Fuzzy-trace theory (Brainerd et al., 1999) to estimate the contribution of gist and verbatim memory to recognition performance. Interestingly, 8 y.o. retrieved more gist and verbatim memory than 4 y.o. These findings suggest that both gist and verbatim memory increase with age which specifically reduce false recognition in working memory.
 
-\hypertarget{working-memory-and-language-actions-load-effects-on-quality-control-in-preschool-childrens-production-of-novel-syntax}{%
-\subsection{Working memory and language actions: Load effects on quality control in preschool children's production of novel syntax}\label{working-memory-and-language-actions-load-effects-on-quality-control-in-preschool-childrens-production-of-novel-syntax}}
-
-\emph{Eryn Adams (University of Missouri) \& Nelson Cowan}
-
-\emph{Email: \href{mailto:erynadams@mizzou.edu}{\nolinkurl{erynadams@mizzou.edu}}}
-
-Working memory is widely accepted as a necessary resource for a wide variety of cognitive abilities. Developmental work has shown that as working memory capacities increase, so too does the ability to successfully perform other cognitive tasks, including language comprehension and production. The present work demonstrates effects of working memory availability on language production. Whereas most of the previous research linking working memory to language development has been correlational, we experimentally varied the working memory load during concurrent language production in children 4-5 years old. Participants (N=36) were asked to repeat verbatim the previously heard, passive-voice descriptions of images displaying transitive-verb actions. These responses were performed while children sometimes retained a spatial-visual or verbal working memory load to be recalled after sentence production. Responses were coded for either maintaining the relatively unfamiliar passive voice of a previously heard description of the picture, or changing the syntax to a more familiar, active voice. Surprisingly, children were more likely to use the active voice when there was no concurrent working memory load. Under a load, children more often used the passive voice, as they were instructed to do, but produced more errors while doing so (including some nonsensical renditions such as the girl was watered by the flower). We propose that working memory, when available, is used to impose a quality-control process whereby the semantic fidelity of the response to the stimulus picture is preserved, here at the expense of disregarding the experimental instruction to reproduce the passive voice.
-
-\hypertarget{short-term-memory-for-music-the-role-of-the-vocal-motor-system}{%
-\subsection{Short-term memory for music: the role of the vocal motor system?}\label{short-term-memory-for-music-the-role-of-the-vocal-motor-system}}
-
-\emph{Simon Gorin (University of Geneva) \& Emma Greenspan}
-
-\emph{Email: \href{mailto:gorinsimon@gmail.com}{\nolinkurl{gorinsimon@gmail.com}}}
-
-Whether people engage in covert rehearsal to maintain musical information in short-term memory (STM) is unclear. In this study, we tested the hypothesis that the maintenance of pitch information in STM is supported by the vocal motor system. More precisely, we tested the idea that the rehearsal of pitch information relies on the translation of an auditory target into the motor codes required to reproduce that target. The same sensorimotor translation mechanism is assumed to operate in pitch imitation, and studies on singing abilities showed that the closest from participants' voice is the to-be-imitated the target, the most accurate is their imitation. Consequently, if the vocal motor system supports the maintenance of pitch information in a recognition task for pairs of melodies, we should observe better recognition performance with material sounding with the timbre of a synthetic voice than a piano (Experiment 1) and for melodies with the timbre of a real voice than a synthetic voice (Experiment 2). Also, it is expected that the effect of the type of timbre should disappear under articulatory suppression but not under manual tapping as only the former recruits the vocal motor system. In Experiment 1, we observed no effect of the type of timbre. In Experiment 2, the participants showed an advantage such that recognition was better for melodies with a real voice compared to melodies with a synthetic voice. However, as expected, this advantage disappeared with articulatory suppression. Our results suggest the existence of a link between the vocal motor system and the mechanism involved in pitch maintenance in STM.
-
-\hypertarget{effects-of-context-and-knowledge-on-working-memory}{%
-\chapter{Effects of context and knowledge on working memory}\label{effects-of-context-and-knowledge-on-working-memory}}
-
-What are the mechanisms underlying the influence of long-term memory knowledge (e.g., semantic or feature similarity, chunking) on working memory? Talks in this session address topics such as how these LTM influences are at play at the level of encoding, relative to at retrieval, and whether we can determine the direction of LTM-WM relationships (e.g., language learning and verbal working memory)? Other talks in this session consider factors such as attention, refreshing and emotion in relation to the effects of context and knowledge on working memory.
-
-\hypertarget{schedule-2}{%
-\section{Schedule}\label{schedule-2}}
-
-This discussion session will take place 2 September from 11:30 - 13:00 (UK) / 12:30 - 14:00 (Switzerland/France)
-
-\hypertarget{abstracts-2}{%
-\section{Abstracts}\label{abstracts-2}}
-
-Recorded talks will be available from 14 August 2020.
-
 \hypertarget{syntax-morphosyntax-and-serial-recall-how-language-supports-short-term-memory-for-order}{%
 \subsection{Syntax, morphosyntax, and serial recall: How language supports short-term memory for order}\label{syntax-morphosyntax-and-serial-recall-how-language-supports-short-term-memory-for-order}}
 
@@ -329,6 +497,30 @@ In the classic view of verbal short-term memory, immediate recall of verbal sequ
 \emph{Email: \href{mailto:gary.jones@ntu.ac.uk}{\nolinkurl{gary.jones@ntu.ac.uk}}}
 
 Such is the consistency by which performance on measures of short-term memory (STM) increase with age that developmental increases in STM capacity are largely accepted as fact. Maturational capacity increases show strong links to higher order cognitive function - particularly language learning - that place STM at the heart of any explanation of such learning. However, our analysis of a robust but almost ignored finding - that span for digit sequences (the traditional measure of STM) increases at a far greater rate than span for other verbal material - fundamentally undermines the assumption that increased performance in STM tasks is underpinned by developmental increases in capacity. We show that this digit superiority with age effect is explained by the relatively greater linguistic exposure to random sequences of digits versus other stimuli such as words. A simple associative learning process that learns incrementally from exposure to language accounts for the effect, without any need to invoke an STM mechanism, much less one that increases in capacity with age. By extension, using corpus data directed at 2-3 year old children, 4-6 year old children, and adults, we show that age-related performance increases with other types of verbal material are equally driven by the same basic associative learning process operating on the expanding exposure to language experienced by the child. Our results question the idea that tests such as digit span are measuring a dedicated system for the temporary maintenance and manipulation of verbal material, and as such have implications for our understanding of those aspects of child development that are usually accounted for with respect to the operation of such a system. In particular, our results suggest that increases in STM performance do not play a causal role in language learning, but rather language learning itself is what causes increased performance in verbal STM tasks.
+
+\hypertarget{working-memory-and-language-actions-load-effects-on-quality-control-in-preschool-childrens-production-of-novel-syntax}{%
+\subsection{Working memory and language actions: Load effects on quality control in preschool children's production of novel syntax}\label{working-memory-and-language-actions-load-effects-on-quality-control-in-preschool-childrens-production-of-novel-syntax}}
+
+\emph{Eryn Adams (University of Missouri) \& Nelson Cowan}
+
+\emph{Email: \href{mailto:erynadams@mizzou.edu}{\nolinkurl{erynadams@mizzou.edu}}}
+
+Working memory is widely accepted as a necessary resource for a wide variety of cognitive abilities. Developmental work has shown that as working memory capacities increase, so too does the ability to successfully perform other cognitive tasks, including language comprehension and production. The present work demonstrates effects of working memory availability on language production. Whereas most of the previous research linking working memory to language development has been correlational, we experimentally varied the working memory load during concurrent language production in children 4-5 years old. Participants (N=36) were asked to repeat verbatim the previously heard, passive-voice descriptions of images displaying transitive-verb actions. These responses were performed while children sometimes retained a spatial-visual or verbal working memory load to be recalled after sentence production. Responses were coded for either maintaining the relatively unfamiliar passive voice of a previously heard description of the picture, or changing the syntax to a more familiar, active voice. Surprisingly, children were more likely to use the active voice when there was no concurrent working memory load. Under a load, children more often used the passive voice, as they were instructed to do, but produced more errors while doing so (including some nonsensical renditions such as the girl was watered by the flower). We propose that working memory, when available, is used to impose a quality-control process whereby the semantic fidelity of the response to the stimulus picture is preserved, here at the expense of disregarding the experimental instruction to reproduce the passive voice.
+
+\hypertarget{effects-of-context-and-knowledge-on-working-memory}{%
+\chapter{Effects of context and knowledge on working memory}\label{effects-of-context-and-knowledge-on-working-memory}}
+
+What are the mechanisms underlying the influence of long-term memory knowledge (e.g., semantic or feature similarity, chunking) on working memory? Talks in this session address topics such as how these LTM influences are at play at the level of encoding, relative to at retrieval, and whether we can determine the direction of LTM-WM relationships (e.g., language learning and verbal working memory)? Other talks in this session consider factors such as attention, refreshing and emotion in relation to the effects of context and knowledge on working memory.
+
+\hypertarget{schedule-2}{%
+\section{Schedule}\label{schedule-2}}
+
+This discussion session will take place 2 September from 11:30 - 13:00 (UK) / 12:30 - 14:00 (Switzerland/France)
+
+\hypertarget{abstracts-2}{%
+\section{Abstracts}\label{abstracts-2}}
+
+Recorded talks will be available from 14 August 2020.
 
 \hypertarget{working-memory-and-vocabulary-breadth-and-depth-how-they-contribute-to-explain-reading-comprehension}{%
 \subsection{Working memory and vocabulary breadth and depth: How they contribute to explain reading comprehension}\label{working-memory-and-vocabulary-breadth-and-depth-how-they-contribute-to-explain-reading-comprehension}}
@@ -582,7 +774,7 @@ Working memory is a major predictor of cognitive development and school achievem
 
 \emph{Email: \href{mailto:panesi.sabrina@gmail.com}{\nolinkurl{panesi.sabrina@gmail.com}}}
 
-A group of 176 preschoolers (36-74 months) was administered an updating task (Magic house; Panesi \& Morra, 2017) along with three tests of M capacity, as defined in the theory of constructive operators: Backward Word Span (BWS), Mr.~Cucumber (Cuc), and Direction Following Task (DFT). The Magic house is essentially a running span task for young children. The Magic house correlated .44 with BWS, .38 with Cuc, .45 with DFT, and .52 with the average of three, all p\textless{}.001; and with age partialled out, .21, .19, .24 (all ps \textless{}.01) , and .31 (p\textless{}.001), respectively. Instead, the correlation between Magic house and age (.45) was no longer significant (r=.11) when M capacity was statistically removed. Descriptive statistics indicate a linear increase of Magic house mean scores as a function of either age or M capacity. Performance on the Magic house was defined as low (\textless{}50\% correct, i.e.~no more than one animal per item on average), intermediate (between 50 and 75\% correct), or high (\textgreater{}75\% correct). Cross-classification prediction analysis indicated as ``impossible event'' a low performance on the Magic house by children with an M capacity of 3 units, Del = .87, z=6.72,.99 CI = (.54, 1.20). Events defined as low performance on the Magic house by children with an M capacity of at least 2 units, and high performance on the Magic house by children with an M capacity of 1 unit, were rare but not impossible, Del = .54, z=4.08, p\textless{}.001, .99 CI = (.20, .89), and Del = .62, z=5.10, p\textless{}.001, .99 CI = (.31, .94), respectively. Overall, the results indicate that updating skill, in preschoolers, depends closely on M capacity but does not coincide with it.
+A group of 176 preschoolers (36-74 months) was administered an updating task (Magic house; Panesi \& Morra, 2017) along with three tests of M capacity, as defined in the theory of constructive operators: Backward Word Span (BWS), Mr.~Cucumber (Cuc), and Direction Following Task (DFT). The Magic house is essentially a running span task for young children. The Magic house correlated .44 with BWS, .38 with Cuc, .45 with DFT, and .52 with the average of three, all p\textless.001; and with age partialled out, .21, .19, .24 (all ps \textless.01) , and .31 (p\textless.001), respectively. Instead, the correlation between Magic house and age (.45) was no longer significant (r=.11) when M capacity was statistically removed. Descriptive statistics indicate a linear increase of Magic house mean scores as a function of either age or M capacity. Performance on the Magic house was defined as low (\textless50\% correct, i.e.~no more than one animal per item on average), intermediate (between 50 and 75\% correct), or high (\textgreater75\% correct). Cross-classification prediction analysis indicated as ``impossible event'' a low performance on the Magic house by children with an M capacity of 3 units, Del = .87, z=6.72,.99 CI = (.54, 1.20). Events defined as low performance on the Magic house by children with an M capacity of at least 2 units, and high performance on the Magic house by children with an M capacity of 1 unit, were rare but not impossible, Del = .54, z=4.08, p\textless.001, .99 CI = (.20, .89), and Del = .62, z=5.10, p\textless.001, .99 CI = (.31, .94), respectively. Overall, the results indicate that updating skill, in preschoolers, depends closely on M capacity but does not coincide with it.
 
 \hypertarget{assessing-perceptual-and-internal-attention-in-the-aging-mind}{%
 \subsection{Assessing perceptual and internal attention in the aging mind}\label{assessing-perceptual-and-internal-attention-in-the-aging-mind}}
@@ -695,7 +887,7 @@ Recordings of these presentations are not available because they describe ongoin
 
 \emph{Email: \href{mailto:sjiang17@sheffield.ac.uk}{\nolinkurl{sjiang17@sheffield.ac.uk}}}
 
-Transcranial direct current stimulation (tDCS) has gained growing research interest as a promising intervention tool to enhance visual working memory (VWM) performance. Previous evidence indicates a correlation between VWM performance and neural activities in the dorsolateral prefrontal cortex (DLPFC) and posterior parietal cortex (PPC). Recently, Wang et al. (2019) found that anodal tDCS over PPC, but not over DLPFC, selectively improved VWM capacity but not VWM precision. However, the original study has some potential issues, such as a small number of participants and trials, and incomplete counterbalancing, which could have led to overestimated effect sizes, unreliable estimation of VWM performance, and carryover effects. In the present pre-registered study, we aim to conceptually replicate these findings using a continuous reproduction task and study design that account for these weaknesses identified in Wang et al.'s (2019) study. If our replication attempt succeeds, it would suggest that PPC-tDCS is an effective paradigm to enhance VWM. Moreover, these findings would provide an insight into the distinct roles of the DLPFC and PPC in WM performance.
+Transcranial direct current stimulation (tDCS) has gained growing research interest as a promising intervention tool to enhance visual working memory (VWM) performance. Previous evidence indicates a correlation between VWM performance and neural activities in the dorsolateral prefrontal cortex (DLPFC) and posterior parietal cortex (PPC). Recently, Wang et al.~(2019) found that anodal tDCS over PPC, but not over DLPFC, selectively improved VWM capacity but not VWM precision. However, the original study has some potential issues, such as a small number of participants and trials, and incomplete counterbalancing, which could have led to overestimated effect sizes, unreliable estimation of VWM performance, and carryover effects. In the present pre-registered study, we aim to conceptually replicate these findings using a continuous reproduction task and study design that account for these weaknesses identified in Wang et al.'s (2019) study. If our replication attempt succeeds, it would suggest that PPC-tDCS is an effective paradigm to enhance VWM. Moreover, these findings would provide an insight into the distinct roles of the DLPFC and PPC in WM performance.
 
 \hypertarget{suceptibility-to-distraction-working-memory-and-mathematical-procedural-skills}{%
 \subsection{Suceptibility to distraction, working memory and mathematical procedural skills}\label{suceptibility-to-distraction-working-memory-and-mathematical-procedural-skills}}
@@ -727,6 +919,6 @@ Refreshing is assumed to be an attention-based, domain-general maintenance mecha
 \hypertarget{section}{%
 \subsection{}\label{section}}
 
-\bibliography{book.bib,packages.bib}
+  \bibliography{book.bib,packages.bib}
 
 \end{document}
