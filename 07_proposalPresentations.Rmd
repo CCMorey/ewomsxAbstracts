@@ -32,10 +32,8 @@ Several models of working memory (WM) state that attention is a core mechanism (
 
 ### The consequences of instructed refreshing on memory performance in children
 
-*Beatrice Valentini (University of Geneva), Alessandra Souza, Clara Overkott, & Evie Vergauwe*
+*Beatrice Valentini (University of Geneva), Alessandra Souza, Clara Overkott, Andri Shimi, & Evie Vergauwe*
 
 *Email: beatrice.valentini@unige.ch*
 
 Refreshing is assumed to be an attention-based, domain-general maintenance mechanism in working memory, which improves the accessibility of mental representations. Although it is thought to be crucial for the maintenance of mental representations and memory performance,at present there is no agreement on its development throughout the childhood. This preregistered study used an instructed refreshing paradigm to disentangle whether children aged 7 and 11 years old can perform the cognitive processes which underlie successful refreshing. In particular, the task included conditions with one or two sequential retro-cues, aiming to test whether children can, respectively, (1) focus their attention on a mental representation, and (2) switch attention between the representations. Preliminary results suggest that children in both age groups can focus attention on a memory item, as reflected in the beneficial effect of a single retro-cue, but that they experience difficulties in switching attention between representations. Therefore, it seems that the mechanism of refreshing is not fully developed until 11 years old.
-
-### 
