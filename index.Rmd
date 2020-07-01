@@ -45,9 +45,9 @@ Working memory highlights a distinction between dormant knowledge and informatio
 
 * Top-down and bottom-up virtual social events - We will open the meeting Zoom link before and after sessions each day of the meeting for those interested in unstructured social interaction with colleagues. Because this might not work well in all time zones, we also strongly encourage the community to organize other meet-up possibilities convenient to their time-zones, which we will help broadcast to the conference attendees.
 
-## Schedule Overview: Provisional!
+## Schedule Overview
 
-Although EWoMS is situated in Europe, we have delegates from all hemispheres. We have tried to ensure that the times of the sessions are reasonable for the speakers associated with the session to attend. (NB- after registration we may find that some of our assumptions about where speakers will be attending from are incorrect, and may need to adjust times accordingly.)
+Although EWoMS is situated in Europe, we have delegates from all hemispheres. We have tried to ensure that the times of the sessions are possible for the speakers associated with the session to attend. 
 
 ```{r, echo=F}
 knitr::include_graphics("ewomsSched.png")
