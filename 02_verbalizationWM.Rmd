@@ -4,7 +4,11 @@ How does verbalization impact memory for information, whether for words, images,
 
 ## Schedule
 
-This discussion session will take place 1 September from 15:00 - 16:30 (UK) / 16:00 - 17:30 (Switzerland/France) / 9:00 - 10:30 (USA - Central Time Zone)
+This discussion session will take place 1 September from 15:00 - 16:30 (UK) / 16:00 - 17:30 (Switzerland/France) / 9:00 - 10:30 (USA - Central Time Zone).
+
+## Discussants
+
+Get in touch with Gaia Scerif (gaia.scerif@psy.ox.ac.uk; \@GaiaScerif) or Alessandra Souza (a.souza@psychologie.uzh.ch;  \@A_SSouza) with your ideas for questions and discussion points.
 
 ## Abstracts
 
@@ -18,7 +22,7 @@ Recorded talks will be available from 14 August 2020.
 
 *Twitter: \@CandiceMorey*
 
-Work by Flavell, Beach, and Chinsky (1966) indicated a change in the spontaneous production of overt verbalization behaviors when comparing young children (age 5-6) to older children (age 10). Despite the critical role that this evidence of a change in verbalization behaviors plays in modern theories of cognitive development and working memory, there has only been one other published near-replication of this work (Keeney, Cannizzo, & Flavell, 1967). This Registered Replication Report relied upon 17 labs who contributed their results to a larger and more comprehensive sample of children (N=980), with roughly equal numbers of 5-, 6-, 7-, and 10-year-olds. We assessed memory performance and the presence or absence of verbalization behaviors of young children across this age range, and determined that the original pattern of findings was largely upheld. We observed a clear increase in verbalization between 5- and 7-year-olds; however, the further increase between 7- and 10-year-olds that Flavell et al. originally reported was much less clear. Verbalization was also more prevalent in the young children in our sample than it was in Flavell et al.'s sample, which seems inconsistent with the proposition that verbal rehearsal strategies are unavailable to children under 7. With our large sample, we were able to extend Flavell et al.'s findings with respect to the benefit of verbalization for recall. Children who verbalized, whatever their age, recalled longer sequences than children who did not. The implications for theories of working memory development arising from these findings will be discussed. 
+Work by Flavell, Beach, and Chinsky (1966) indicated a change in the spontaneous production of overt verbalization behaviors when comparing young children (age 5-6) to older children (age 10). Despite the critical role that this evidence of a change in verbalization behaviors plays in modern theories of cognitive development and working memory, there has only been one other published near-replication of this work (Keeney, Cannizzo, & Flavell, 1967). This Registered Replication Report relied upon 17 labs who contributed their results to a larger and more comprehensive sample of children (N=977), with roughly equal numbers of 5-, 6-, 7-, and 10-year-olds. We assessed memory performance and the presence or absence of verbalization behaviors of young children across this age range, and determined that the original pattern of findings was largely upheld. We observed a clear increase in verbalization between 5- and 7-year-olds; however, the further increase between 7- and 10-year-olds that Flavell et al. originally reported was much less clear. Verbalization was also more prevalent in the young children in our sample than it was in Flavell et al.'s sample, which seems inconsistent with the proposition that verbal rehearsal strategies are unavailable to children under 7. With our large sample, we were able to extend Flavell et al.'s findings with respect to the benefit of verbalization for recall. Children who verbalized, whatever their age, recalled longer sequences than children who did not. The implications for theories of working memory development arising from these findings will be discussed. 
 
 ### How do verbal labels influence children's visual working memory?
 
@@ -30,7 +34,7 @@ Storage of information in visual working memory (WM) is highly constrained and o
 
 ### Short-term memory for music: the role of the vocal motor system?
 
-*Simon Gorin (University of Geneva) & Emma Greenspan*
+*Simon Gorin (University of Geneva) & Emma Greenspon*
 
 *Email: gorinsimon@gmail.com*
 
