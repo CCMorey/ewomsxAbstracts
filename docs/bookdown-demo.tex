@@ -559,7 +559,7 @@ Vocabulary knowledge has been usually conceptualized and investigated as the num
 
 \textbf{Methods \& Results}: In an experiment requiring participants to perform immediate serial recall of lists composed of six memoranda (e.g.~leaf - tree - branch - wall - sky - dog), we observed that the presence of a semantic chunk (i.e.~leaf - tree - branch) enhanced recall performance for items that directly followed the semantic chunk (i.e.~wall - sky - dog), and this compared to a condition where all the items were semantically unrelated (e.g.~hammer - jacket - horn - wall - sky - dog). This phenomenon is successfully captured by a new computational architecture in which we integrated the activation occurring in the long-term memory linguistic system (Dell et al., 1997) within TBRS*, a decay-based WM model (Oberauer \& Lewandowsky, 2011).
 
-\textbf{Conclusion}*: In this study, not only do we show for the first time that semantic knowledge can be used in order to save WM resources, but our simulations also demonstrate the potentialities offered by bridging the gap between WM and the activation in the long-term memory system.
+\textbf{Conclusion}: In this study, not only do we show for the first time that semantic knowledge can be used in order to save WM resources, but our simulations also demonstrate the potentialities offered by bridging the gap between WM and the activation in the long-term memory system.
 
 \hypertarget{does-attentional-refreshing-modulate-the-associative-relatedness-effect-in-children-and-adults-working-memory}{%
 \subsection{Does attentional refreshing modulate the associative relatedness effect in children and adults' working memory?}\label{does-attentional-refreshing-modulate-the-associative-relatedness-effect-in-children-and-adults-working-memory}}
@@ -883,6 +883,14 @@ Working memory (WM) precision is defined as the quality with which representatio
 \emph{Benjamin Kowialiewski (Universitè Grenoble Alpes) \& Steve Majerus}
 
 \emph{Email: \href{mailto:bkowialiewski@uliege.be}{\nolinkurl{bkowialiewski@uliege.be}}}
+
+\textbf{Introduction}: Some theoretical accounts consider that the linguistic system is a core component of working memory (WM). Indeed, all levels of language processing (phonological, lexical and semantic) have been shown to support maintenance of verbal information as evidenced by different psycholinguistic effects in immediate serial recall tasks: items associated with richer linguistic knowledge lead to higher recall performance than items with poorer linguistic knowledge. Psycholinguistic effects can be explained, at least theoretically, by interactive activation models assuming constant interaction between adjacent levels of linguistic representations during verbal WM tasks. However, interactive activation models have not yet been implemented within a WM architecture so far.
+
+\textbf{Method}: We built a linguistic architecture based on interactive activation principles that we integrated within a WM architecture in order to simulate psycholinguistic effects. The linguistic architecture is a three-layer neural network composed of a sub-lexical, lexical and semantic layers, with adjacent layers being linked via bi-directional connection weights. This linguistic architecture was integrated with the Start-End model of WM (Henson, 1998), in which the order of items within a WM sequence is represented by start and end vectors.
+
+\textbf{Results}: Using the same architecture throughout all experiments, we were able to reproduce all major psycholinguistic effects (lexical frequency, phonological similarity, neighbourhood density, semantic relatedness and imageability effects) in a computational implementation of immediate serial recall.
+
+\textbf{Conclusion}: The results of our simulations support interactive activation models, assuming that WM partially emerges from language processing, as a plausible mechanism for accounting for the presence of psycholinguistic effects on WM performance.
 
 \hypertarget{putting-a-little-perception-for-action-into-working-memory-a-parametric-approach-to-auditory-distraction}{%
 \subsection{Putting a little perception-for-action into working memory? A parametric approach to auditory distraction}\label{putting-a-little-perception-for-action-into-working-memory-a-parametric-approach-to-auditory-distraction}}

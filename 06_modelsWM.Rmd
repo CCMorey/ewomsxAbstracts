@@ -53,6 +53,16 @@ Working memory (WM) precision is defined as the quality with which representatio
 
 *Email: bkowialiewski@uliege.be*
 
+**Introduction**: Some theoretical accounts consider that the linguistic system is a core component of working memory (WM). Indeed, all levels of language processing (phonological, lexical and semantic) have been shown to support maintenance of verbal information as evidenced by different psycholinguistic effects in immediate serial recall tasks: items associated with richer linguistic knowledge lead to higher recall performance than items with poorer linguistic knowledge. Psycholinguistic effects can be explained, at least theoretically, by interactive activation models assuming constant interaction between adjacent levels of linguistic representations during verbal WM tasks. However, interactive activation models have not yet been implemented within a WM architecture so far.
+
+**Method**: We built a linguistic architecture based on interactive activation principles that we integrated within a WM architecture in order to simulate psycholinguistic effects. The linguistic architecture is a three-layer neural network composed of a sub-lexical, lexical and semantic layers, with adjacent layers being linked via bi-directional connection weights. This linguistic architecture was integrated with the Start-End model of WM (Henson, 1998), in which the order of items within a WM sequence is represented by start and end vectors.
+
+**Results**: Using the same architecture throughout all experiments, we were able to reproduce all major psycholinguistic effects (lexical frequency, phonological similarity, neighbourhood density, semantic relatedness and imageability effects) in a computational implementation of immediate serial recall.
+
+**Conclusion**: The results of our simulations support interactive activation models, assuming that WM partially emerges from language processing, as a plausible mechanism for accounting for the presence of psycholinguistic effects on WM performance.
+
+
+
 ### Putting a little perception-for-action into working memory? A parametric approach to auditory distraction
 
 *C. Philip Beaman (University of Reading)*

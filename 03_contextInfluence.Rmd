@@ -33,7 +33,7 @@ Vocabulary knowledge has been usually conceptualized and investigated as the num
 
 **Methods & Results**: In an experiment requiring participants to perform immediate serial recall of lists composed of six memoranda (e.g. leaf - tree - branch - wall - sky - dog), we observed that the presence of a semantic chunk (i.e. leaf - tree - branch) enhanced recall performance for items that directly followed the semantic chunk (i.e. wall - sky - dog), and this compared to a condition where all the items were semantically unrelated (e.g. hammer - jacket - horn - wall - sky - dog). This phenomenon is successfully captured by a new computational architecture in which we integrated the activation occurring in the long-term memory linguistic system (Dell et al., 1997) within TBRS*, a decay-based WM model (Oberauer & Lewandowsky, 2011).
 
-**Conclusion***: In this study, not only do we show for the first time that semantic knowledge can be used in order to save WM resources, but our simulations also demonstrate the potentialities offered by bridging the gap between WM and the activation in the long-term memory system.
+**Conclusion**: In this study, not only do we show for the first time that semantic knowledge can be used in order to save WM resources, but our simulations also demonstrate the potentialities offered by bridging the gap between WM and the activation in the long-term memory system.
 
 ### Does attentional refreshing modulate the associative relatedness effect in children and adults' working memory?
 
