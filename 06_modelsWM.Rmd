@@ -1,6 +1,6 @@
 # Advances in modelling working memory
 
-How are working memory processes implemented in the brain? The talks in this session speak to this overarching question using quantitative modelling and neuroimaging methods. We will look at how neuroimaging can inform us about the state of representations in WM, compare quantitative predictions of different theories of distraction, and discuss the development of quantitative models of well-known experimental findings.
+How are working memory processes implemented in the brain? [The talks in this session](https://www.youtube.com/playlist?list=PLbongzUA9knfpedioaXZyborcu-QWUqj7) speak to this overarching question using quantitative modelling and neuroimaging methods. We will look at how neuroimaging can inform us about the state of representations in WM, compare quantitative predictions of different theories of distraction, and discuss the development of quantitative models of well-known experimental findings.
 
 ## Schedule
 
@@ -15,7 +15,7 @@ Get in touch with Craig Hedge (hedgec@cardiff.ac.uk) or Klaus Oberauer (k.oberau
 
 Recorded talks will be available from 14 August 2020.
 
-### Does forgetting in working memory depend on the type of representation?
+### [Does forgetting in working memory depend on the type of representation?](https://www.youtube.com/watch?v=UHAQs2dvhyc&list=PLbongzUA9knfpedioaXZyborcu-QWUqj7&index=7&t=0s)
 
 *Vanessa M. Loaiza (University of Essex)*
 
@@ -23,7 +23,7 @@ Recorded talks will be available from 14 August 2020.
 
 A persistent debate concerns whether decay or interference causes forgetting from working memory (WM). Recent work on the neuroscience of episodic memory suggests that the nature of forgetting depends on the representation: Recollection, supported by the hippocampus, may be relatively resistant to interference and more prone to decay, whereas extrahippocampal structures support familiarity that may be more sensitive to interference (Sadeh et al., 2016). Two experiments explored whether this dissociation is evident in WM using a task that intermittently disrupted retrieval (Barrouillet et al., 2013). Five unrelated word pairs (e.g., lily-coffee, ballot-dress) were presented, followed by retrieval of each pairing wherein one of the words (e.g., lily) was presented with three options: the correct target (e.g., coffee), a never-presented lure (e.g., rabbit), and a lure from a different pair (e.g., dress). In-between each retrieval attempt, participants responded aloud to 1, 2 or 4 distractors, the pace of which was tailored and fixed to each participants' median speed. In Experiment 1, the pairs were presented for either a short (1s) or long (5s) duration and the distractors at a fixed rate. In Experiment 2, the pairs were presented for 1s and the distractors at either a fast or slow pace (1.5 or 2.5x the participants' median speed, respectively). Hierarchical Bayesian multinomial processing tree modeling allowed estimation of recollection and familiarity at the latent level, with the prediction that presentation rate and pace (but not distractors) should affect recollection (and not familiarity), whereas the number of distractors (and not presentation rate or pace) should affect familiarity (and not recollection). The results revealed a credible effect of presentation rate on recollection, but no impact of pace or distractors on recollection or familiarity, thus conflicting with the notion that the nature of forgetting depends on the type of representation.
 
-### A neo-Piagetian perspective on complex span modelling
+### [A neo-Piagetian perspective on complex span modelling](https://www.youtube.com/watch?v=9ezLdbVmwh4&list=PLbongzUA9knfpedioaXZyborcu-QWUqj7&index=4)
 
 *Lorenzo Muscella (DISFOR - Università di Genova) & Sergio Morra*
 
@@ -31,7 +31,7 @@ A persistent debate concerns whether decay or interference causes forgetting fro
 
 This study aimed to design and test a complex span model based on Pascual-Leone's Theory of Constructive Operators: the TCO-Complex Span (TCO-CS). The predictions of the model are based on two factors: the number of units of attention needed to solve a cognitive task (task demand) and the amount of units of attentional resources available to the subjects (i.e., their M capacity). According to the TCO-CS, forgetting in complex spans occurs when the demand of the processing and memory tasks combined is greater than a subject's attentional capacity. In this case, the exceeding memory items cannot be boosted by attention and interfere with one another; as a result, the probability of their correct recall drops. In Experiment 1 adult participants were presented with three different memory span tasks: a letter span task, a low-demand complex span in which the processing task requires an automatic orientation of attention, and a high-demand complex span in which the processing task is an antisaccade.  Sixty young adults were randomly assigned to two different conditions: in Condition 1 each memoranda is followed by one processing item, in Condition 2 by two processing items. In Experiment 2, only Condition 1 was presented to two age-groups, composed by 30 fifth graders and 40 seventh graders.  In both experiments we did not find any significant difference between the observed and predicted mean span scores. The TCO-CS represent a parsimonious model, which combines elements of the resource-sharing and the interference hypotheses and generates effective predictions of adults' and childrens' performances; nevertheless, further investigations are required to evaluate its predictive power with complex spans involving material-based interference effects, such as the domain specific effect of processing and heterogeneity benefit effect.
 
-### The dynamic coding of working memory content over time: from sensory recruitment to a distributed representation
+### [The dynamic coding of working memory content over time: from sensory recruitment to a distributed representation](https://www.youtube.com/watch?v=kZdyRTv3i1w&list=PLbongzUA9knfpedioaXZyborcu-QWUqj7&index=2)
 
 *Evie Vergauwe (University of Geneva), Carlos Gonzalez-Garcia, David Wisniewski, Naomi Langerock, & Marcel Brass*
 
@@ -39,7 +39,7 @@ This study aimed to design and test a complex span model based on Pascual-Leone'
 
 Goal-directed human behaviour in a dynamically-changing and distracting environment requires a flexible working memory system. To understand flexible working memory storage, we independently tracked multiple, sequentially presented visual memory items over successive retention phases filled with distracting activities. We found that each memory item was initially only represented in the visual cortex. Importantly, over successive, filled retention phases, we uncovered a gradual reduction in the neural coding for each memory item in the visual cortex, which was accompanied by the emergence of neural coding for these items in the frontoparietal cortices. This shift in where working memory content is represented was accompanied by a change in representational format over successive retention phases, demonstrating a shift in how working memory content is represented over time. Thus, in a dynamic and distracting environment, the neural representation of working memory content changes drastically over time. The observed time-based shift in the localization of working memory storage in the brain suggests the existence of multiple levels of representations in working memory. In particular, our data indicate that, right after encoding, memory items are mainly represented in terms of their sensory features. Over time, more abstract representations are created such that the working memory representations can guide upcoming behavioral actions. Informed by these brain-based observations, we propose that a specific, time-based pattern of interference caused by concurrent activities of different nature is to be expected in recall behavior.
 
-### Precision of neural codes involved in storing phonological information in working memory
+### [Precision of neural codes involved in storing phonological information in working memory](https://www.youtube.com/watch?v=L3UNJVTXEKM&list=PLbongzUA9knfpedioaXZyborcu-QWUqj7&index=3)
 
 *Marion Bouffier (University of Liège), Benjamin Kowialiewski, Lucie Attout, Coline Grègoire, Christophe Phillips, & Steve Majerus*
 
@@ -47,7 +47,7 @@ Goal-directed human behaviour in a dynamically-changing and distracting environm
 
 Working memory (WM) precision is defined as the quality with which representations are stored in WM, and has to be distinguished from WM capacity, which is the quantity of information that can be maintained in WM. This study is the first to assess the neural precision of WM traces for auditory-verbal information, using a functional magnetic resonance imaging (fMRI) approach. In this experiment, we asked 27 young adults to actively maintain 4-syllable nonwords during a 7-second interval. The nonwords were highly similar or dissimilar at the phonological level. Using multivariate voxel pattern analysis (MVPA), we explored the neural patterns associated with each nonword. We hypothesized that if auditory-verbal WM precision is limited, as indicated by the well-established phonological similarity effect in the WM literature, then dissimilar but not similar nonwords should be associated with distinctive neural patterns during WM, especially during the maintenance stage. Using Bayesian one sample t-tests on whole-brain classification accuracies, we observed that neural decoding of similar nonwords was at chance level, while neural decoding of dissimilar nonwords was clearly above chance during the maintenance stage. Searchlight analyses showed that the informative neural patterns were located in the dorsal language pathway known to support phonological processing. These results provide evidence for the neural basis of the phonological similarity effect in WM and the limited precision of phonological coding in WM.
 
-### An interactive activation model of verbal working memory: Simulating psycholinguistic effects
+### [An interactive activation model of verbal working memory: Simulating psycholinguistic effects](https://www.youtube.com/watch?v=on5xC6mIrZo&list=PLbongzUA9knfpedioaXZyborcu-QWUqj7&index=5)
 
 *Benjamin Kowialiewski (Universitè Grenoble Alpes) & Steve Majerus*
 
@@ -71,7 +71,7 @@ Working memory (WM) precision is defined as the quality with which representatio
 
 If the types of memory task usually employed to investigate working memory are any kind of reflection of how memory "works" in the real world then the types of manipulation which interfere with these memory tasks should, ceteris paribus, also prove detrimental to real world task which require working memory. An important example of this is auditory distraction by irrelevant sound (e.g., Jones & Macken, 1993).  Given this, it is surprising that we do not know even for relatively pure serial recall tasks how to relate irrelevant sound properties to auditory distraction quantitatively. Here the mathematical function a particular manipulation, the token set size effect (Tremblay & Jones, 1998), might be expected to take is considered.  A Bayesian analysis is then applied to the results of published studies identified as examining token set sizes of three or more and the likelihood ratios calculated for hypotheses labelled "strong changing-state", "stimulus mismatch", and "orienting hypothesis". These hypotheses predict auditory distraction as a mathematical function of token set-size in the following three ways: thresholded, or via two different curvilinear functions. Results demonstrate that the strong changing-state hypothesis is not viable, but the orienting hypothesis is also less likely than the curvilinear function derived for the stimulus mismatch hypothesis. Implications for theory and practice are considered.
 
-### The role of control and scope of attention in maintaining information in working memory
+### [The role of control and scope of attention in maintaining information in working memory](https://www.youtube.com/watch?v=-Rwqd1wU4Bw&list=PLbongzUA9knfpedioaXZyborcu-QWUqj7&index=1)
 
 *Steve Majerus (University of Liège)*
 
