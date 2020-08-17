@@ -30,7 +30,7 @@ Visual working memory (VWM) improves dramatically during childhood but what driv
 
 Working memory performance for categorical items such as letters is a linear function of the cognitive load of a concurrent task, giving evidence that memory traces are maintained through attentional refreshing. The present study tested the effect of a concurrent load upon precision of memory for colors. Participants were asked to remember a series of three colors presented sequentially on a screen, each color was followed by three digits to be categorised. The cognitive load of the concurrent task was manipulated by varying the pace of digits presentation. At the end of the trial on a color wheel, participants were required to provide sequentially their best guess about the three colors they remembered, but also to provide a confident interval around their guesses. The same experiment was also conducted under articulatory suppression. Cognitive load affected the distance of the point estimate of color to the correct color, but not the width of the confidence interval, except for the third color.  Articulatory suppression decreased memory performance and confidence and this effect did not interact with cognitive load. These findings suggested that continuous representation can be maintained through attentional refreshing. 
 
-### Investigating the differences between the types of bindings underlying working memory
+### [Investigating the differences between the types of bindings underlying working memory](https://www.youtube.com/watch?v=70ZPB4Ss0VQ&list=PLbongzUA9knfpSnPZC3fidMH22VNgz5js&index=11&t=0s)
 
 *Maria Sanz Taberner (University of Essex) & Vanessa Loaiza*
 
